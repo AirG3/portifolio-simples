@@ -1,0 +1,27 @@
+* { /* Asteristico significa 'Tudo' */
+    margin: 0;
+    /* Distancia de todos os lados */
+    padding: 0;
+    /* Distancia dentre os elementos */
+    border: none;
+    /* Nenhuma borda nos meus elementos*/
+    outline: none;
+    /* Não sei ainda mas sempre resetar */
+    box-sizing: border-box;
+    /* Ajudar a trabalhar com espaçamentos mais facil*/
+}
+
+a { /* Ancoras,links do site */
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    /* Por padrão as listas aparecem com uma bolinha na frente*/
+}
+
+img {
+    max-width: 100%;
+    /* % Para a imagem se adaptar aos tamanhos do site */
+}
